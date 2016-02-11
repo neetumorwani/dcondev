@@ -6,11 +6,13 @@ dependencies:
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_image
+    - field.field.node.article.field_site_link
     - field.field.node.article.field_tags
     - node.type.article
   module:
     - comment
     - image
+    - link
     - text
     - user
 _core:
@@ -41,6 +43,17 @@ content:
       image_link: ''
     third_party_settings: {  }
     label: hidden
+  field_site_link:
+    weight: 101
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
   field_tags:
     type: entity_reference_label
     weight: 10
