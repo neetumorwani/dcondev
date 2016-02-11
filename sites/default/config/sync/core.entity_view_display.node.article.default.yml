@@ -5,12 +5,14 @@ dependencies:
   config:
     - field.field.node.article.body
     - field.field.node.article.comment
+    - field.field.node.article.field_event
     - field.field.node.article.field_image
     - field.field.node.article.field_site_link
     - field.field.node.article.field_tags
     - node.type.article
   module:
     - comment
+    - datetime
     - image
     - link
     - text
@@ -35,6 +37,14 @@ content:
     settings:
       pager_id: 0
     third_party_settings: {  }
+  field_event:
+    weight: 102
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
   field_image:
     type: image
     weight: -1
