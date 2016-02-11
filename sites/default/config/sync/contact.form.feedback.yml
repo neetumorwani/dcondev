@@ -1,0 +1,12 @@
+uuid: 08f20c07-8df2-4d2b-9300-b810aac769f6
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: c4zaT5cyPxuTXI6JOWt3qRtMvICT9tHB6d9a5VG-CmQ
+id: feedback
+label: 'Website feedback'
+recipients:
+  - neetuscorpio@gmail.com
+reply: ''
+weight: 0

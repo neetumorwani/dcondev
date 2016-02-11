@@ -1,0 +1,14 @@
+uuid: e6664ff7-2bca-47e1-bf00-f458033a2278
+name: 'My Cool Dcon Development Site'
+mail: neetuscorpio@gmail.com
+slogan: 'Hey Slogan'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

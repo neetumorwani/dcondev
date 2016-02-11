@@ -1,0 +1,12 @@
+uuid: 46f1a56d-9dc2-4f65-992c-4464f8bd0d00
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: 71CSAr_LNPcgu6D6jI4INl1KATkahmeyUFBETAWya8g
+id: user.compact
+label: Compact
+targetEntityType: user
+cache: true
